@@ -37,7 +37,7 @@ def micro():
 
             text = r.recognize_google(audio, language="es-ES")
 
-            if "reproduce"in text.lower():
+            if "repro"in text.lower():
                 music = text.lower().replace("reproduce", "")
                 print("Reproduciendo " + music)
                 engine.say("Reproduciendo:{}".format(music))
@@ -61,8 +61,21 @@ def micro():
                 else:
                     engine.say("Por favor se mas especifico")
                     engine.runAndWait()
+            elif "búscame" in text.lower():
+                texto = text.lower().split()
+                search = ""
+                texto = texto[texto.index("búscame")+1:]
+                for n in texto:
+                    search = search +" " + n
+                print(pywhatkit.search(search))
+            elif "busca" in text.lower():
+                texto = text.lower().split()
+                search = ""
+                texto = texto[texto.index("busca")+1:]
+                for n in texto:
+                    search = search +" " + n
+                print(pywhatkit.search(search))
 
-                
             else:
                 print("Dijiste: {}".format(text))
                 engine.say("Dijiste:{}".format(text))
