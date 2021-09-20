@@ -4,9 +4,16 @@ Es un asistente virtual con reconocimiento de voz realizado en Python.
 
 ## Comenzando 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+_Caracteristicas del Asistente._
 
-Mira **Deployment** para conocer como desplegar el proyecto.
+Todos las peticiones se realizan a travez de comandos de voz.
+
+Te permitira: 
+  * Reproducir videos en Youtube usando tu navegador predefinido.
+  * Darte el clima actualizado.
+  * Hacer busquedas en google.
+  * Darte la hora.
+  * 
 
 
 ## Autores ✒️
