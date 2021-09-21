@@ -6,7 +6,7 @@ Es un asistente virtual con reconocimiento de voz realizado en Python.
 
 _Caracteristicas del Asistente._
 
-Todos las peticiones se realizan a travez de comandos de voz.
+Todos las peticiones se realizan a traves de comandos de voz.
 
 Te permitira: 
   * Reproducir videos en Youtube usando tu navegador predefinido.
